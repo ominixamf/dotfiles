@@ -52,6 +52,10 @@ echo 'Install node'
 echo '------------'
 brew install node
 
+echo 'Install iterm2'
+echo '------------'
+brew install --cask iterm2
+
 echo 'Install pkg-config'
 echo '------------------'
 brew install pkg-config
