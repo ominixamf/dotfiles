@@ -169,6 +169,14 @@ echo 'Install obsidian'
 echo '---------------------------'
 brew install --cask obsidian
 
+echo 'Install localstack'
+echo '---------------------------'
+brew install localstack
+
+echo 'Install awscli'
+echo '---------------------------'
+brew install awscli
+
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
 echo 'All done!'
