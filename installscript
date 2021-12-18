@@ -84,6 +84,9 @@ echo 'Install doctl'
 echo '-------------'
 brew install doctl
 
+echo 'Install postman'
+echo '-------------'
+brew install postman
 
 echo 'Install some nice quicklook plugins'
 echo '-----------------------------------'
