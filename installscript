@@ -165,6 +165,10 @@ echo 'Install zsh-autosuggestions'
 echo '---------------------------'
 brew install zsh-autosuggestions
 
+echo 'Install obsidian'
+echo '---------------------------'
+brew install --cask obsidian
+
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
 echo 'All done!'
