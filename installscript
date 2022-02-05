@@ -181,10 +181,6 @@ echo 'Install awscli'
 echo '---------------------------'
 brew install awscli
 
-echo 'Install ngronk'
-echo '---------------------------'
-brew install --cask ngrok
-
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
 echo 'All done!'
