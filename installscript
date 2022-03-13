@@ -184,6 +184,14 @@ echo 'Install awscli'
 echo '---------------------------'
 brew install awscli
 
+echo 'Install dbngin'
+echo '---------------------------'
+brew install --cask dbngin
+
+echo 'Install vscode'
+echo '---------------------------'
+brew install --cask visual-studio-code
+
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
 echo 'All done!'
