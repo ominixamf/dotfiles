@@ -98,7 +98,9 @@ brew install kubernetes-cli
 
 echo 'Install php'
 echo '-----------'
-brew install php@8.0
+brew tap shivammathur/php
+brew install shivammathur/php/php@8.1
+brew link --overwrite --force php@8.1
 
 echo 'Install composer'
 echo '----------------'
@@ -113,7 +115,8 @@ then
 fi
 php composer-setup.php
 rm composer-setup.php
-mv composer.phar /usr/local/bin/composer
+sudo mkdir /usr/local/bin/
+sudo mv composer.phar /usr/local/bin/composer
 
 echo 'Install imagemagick'
 echo '-------------------'
