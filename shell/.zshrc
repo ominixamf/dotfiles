@@ -15,7 +15,7 @@ DEFAULT_USER=`whoami`
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git laravel4 laravel5 composer macos vagrant)
+plugins=(git composer macos)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -60,9 +60,6 @@ unset file
 export PATH="$PATH:$HOME/.rvm/bin"
 . $HOME/.dotfiles/shell/z.sh
 
-# Alias hub to git
-eval "$(hub alias -s)"
-
 # Sudoless npm https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
 NPM_PACKAGES="${HOME}/.npm-packages"
 export PATH="$PATH:$NPM_PACKAGES/bin"
@@ -85,7 +82,8 @@ export PATH=/usr/local/bin:$PATH
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/usr/local/opt/node@8/bin:$PATH"
-
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/opt/node@12/bin:$PATH"
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
