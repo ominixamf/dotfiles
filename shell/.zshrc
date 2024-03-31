@@ -90,3 +90,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Enable autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# homebrew installed ruby has higher priority
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
+export PATH="/opt/homebrew/opt/node@18/bin:$PATH"

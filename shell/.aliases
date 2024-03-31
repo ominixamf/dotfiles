@@ -80,3 +80,6 @@ alias npmspatie="npm config set registry https://npm.spatie.be"
 
 # Restart touch bar
 alias touchbar="killall ControlStrip"
+
+# Kubenav
+alias kubenav="/Applications/kubenav.app/Contents/MacOS/kubenav --debug"

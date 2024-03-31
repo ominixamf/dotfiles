@@ -48,6 +48,13 @@ sudo rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/freek/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Taps
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
+
 echo 'Install node'
 echo '------------'
 brew install node
@@ -96,11 +103,6 @@ echo 'Install kubernetes-cli'
 echo '-----------------------------------'
 brew install kubernetes-cli
 
-echo 'Install php'
-echo '-----------'
-brew tap shivammathur/php
-brew install shivammathur/php/php@8.1
-brew link --overwrite --force php@8.1
 
 echo 'Install composer'
 echo '----------------'
@@ -172,10 +174,6 @@ echo 'Install zsh-autosuggestions'
 echo '---------------------------'
 brew install zsh-autosuggestions
 
-echo 'Install obsidian'
-echo '---------------------------'
-brew install --cask obsidian
-
 echo 'Install localstack'
 echo '---------------------------'
 brew install localstack
@@ -188,9 +186,12 @@ echo 'Install dbngin'
 echo '---------------------------'
 brew install --cask dbngin
 
-echo 'Install vscode'
+
+echo 'Install 1password'
 echo '---------------------------'
-brew install --cask visual-studio-code
+brew install --cask '1password'
+
+brew 'yarn'
 
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'

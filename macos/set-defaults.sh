@@ -157,7 +157,7 @@ defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 # Show the ~/Library folder
-chflags nohidden ~/Library
+chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
 
 # Show the ~/Users folder
 chflags nohidden /Users
@@ -267,6 +267,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 # Disable continuous spell checking
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
+
 
 ###############################################################################
 # Kill affected applications                                                  #
