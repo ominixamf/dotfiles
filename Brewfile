@@ -40,6 +40,7 @@ cask 'superhuman'
 cask 'whatsapp'
 cask 'pastebot'
 cask 'tableplus'
+brew 'dbngin'
 
 # Quicklook
 cask 'qlmarkdown'
