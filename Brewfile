@@ -2,32 +2,19 @@
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'stripe/stripe-cli'
 
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
-brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
-brew 'gh'
 brew 'git'
 brew 'grep'
 brew 'httpie'
-brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
-
-# Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
 
 # Development
 brew 'imagemagick'
@@ -35,30 +22,28 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'caffeine'
-cask 'discord'
-cask 'docker'
-cask 'figma'
-cask 'firefox'
-cask 'github'
-cask 'google-chrome'
-cask 'helo'
 cask 'herd'
+cask 'nordvpn'
 cask 'httpie'
-cask 'imageoptim'
-cask 'pastebot'
-cask 'readdle-spark'
-cask 'screenflow'
-cask 'slack'
-cask 'tableplus'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
-cask 'tinkerwell'
-cask 'transmit'
-cask 'tunnelbear'
-cask 'tuple'
+cask 'krisp'
+cask 'android-studio'
+cask 'appcleaner'
+cask 'iterm2'
+cask 'ledger-live'
+cask 'phpstorm'
+cask 'raycast'
+cask 'reactotron'
+cask 'reflect'
 cask 'visual-studio-code'
 cask 'zoom'
+cask 'the-unarchiver'
+cask 'imageoptim'
+cask 'slack'
+cask 'superhuman'
+cask 'whatsapp'
+cask 'pastebot'
+cask 'tableplus'
+
 
 # Quicklook
 cask 'qlmarkdown'
@@ -74,11 +59,9 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'MyWoosh', id: 1498889644
-mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
-mas 'Spring', id: 1508706541
-mas 'Things', id: 904280696
+mas 'Magnet', id: 441258766
+mas 'Jamf Trust', id: 1608041266
+mas 'Microsoft Excel', id: 462058435
+mas 'Microsoft Word', id: 462054704
+mas 'Microsoft Powerpoint', id: 462062816
+mas 'rcmd App Switcher', id: 1596283165
