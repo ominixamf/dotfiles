@@ -21,6 +21,7 @@ brew 'imagemagick'
 brew 'yarn'
 
 # Apps
+cask 'arc'
 cask '1password'
 cask 'herd'
 cask 'nordvpn'
