@@ -15,9 +15,6 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
-
-# Development
-brew 'imagemagick'
 brew 'yarn'
 
 # Apps
@@ -38,13 +35,11 @@ cask 'reflect'
 cask 'visual-studio-code'
 cask 'zoom'
 cask 'the-unarchiver'
-cask 'imageoptim'
 cask 'slack'
 cask 'superhuman'
 cask 'whatsapp'
 cask 'pastebot'
 cask 'tableplus'
-
 
 # Quicklook
 cask 'qlmarkdown'
