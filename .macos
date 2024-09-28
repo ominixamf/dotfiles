@@ -173,6 +173,9 @@ sudo systemsetup -settimezone "America/Sao_Paulo" > /dev/null
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
+# Enable "Use F1, F2, etc. keys as standard function keys"
+defaults write -g com.apple.keyboard.fnState -bool true
+
 ###############################################################################
 # Energy saving                                                               #
 ###############################################################################
