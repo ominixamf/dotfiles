@@ -168,7 +168,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-# sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
+sudo systemsetup -settimezone "America/Sao_Paulo" > /dev/null
 
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
@@ -375,8 +375,8 @@ defaults write com.apple.dock minimize-to-application -bool true
 # Enable spring loading for all Dock items
 # defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
 
-# Show indicator lights for open applications in the Dock
-# defaults write com.apple.dock show-process-indicators -bool true
+# Disable the indicator lights for open applications in the Dock
+defaults write com.apple.dock show-process-indicators -bool false
 
 # Wipe all (default) app icons from the Dock
 # This is only really useful when setting up a new Mac, or if you don’t use
