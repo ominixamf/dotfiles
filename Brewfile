@@ -16,6 +16,9 @@ brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
 brew 'yarn'
+brew 'python'
+brew 'node'
+brew 'watchman'
 
 # Apps
 cask 'arc'
@@ -40,7 +43,8 @@ cask 'superhuman'
 cask 'whatsapp'
 cask 'pastebot'
 cask 'tableplus'
-brew 'dbngin'
+cask 'dbngin'
+cask 'cursor'
 
 # Quicklook
 cask 'qlmarkdown'
