@@ -19,6 +19,7 @@ brew 'yarn'
 brew 'python'
 brew 'node'
 brew 'watchman'
+brew 'cocoapods'
 
 # Apps
 cask 'arc'
@@ -66,3 +67,4 @@ mas 'Microsoft Excel', id: 462058435
 mas 'Microsoft Word', id: 462054704
 mas 'Microsoft Powerpoint', id: 462062816
 mas 'rcmd App Switcher', id: 1596283165
+mas 'Xcode', id:497799835

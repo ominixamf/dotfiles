@@ -26,6 +26,11 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Install expo dependencies
+npx expo install --fix
+sudo xcodebuild -license accept
+brew install cocoapods
+
 # Create a projects directories
 mkdir $HOME/Herd
 
