@@ -30,6 +30,7 @@ brew bundle --file ./Brewfile
 npx expo install --fix
 sudo xcodebuild -license accept
 brew install cocoapods
+npm install --global eas-cli
 
 # Create a projects directories
 mkdir $HOME/Herd

@@ -44,6 +44,7 @@ cask 'pastebot'
 cask 'tableplus'
 cask 'dbngin'
 cask 'cursor'
+cask 'docker'
 
 # Quicklook
 cask 'qlmarkdown'
